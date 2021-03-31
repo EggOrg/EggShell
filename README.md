@@ -2,5 +2,6 @@
   <h1>EggShell</h1>
   An experimental shell replacement.
   <br><br><br>
-  <img src="https://i.imgur.com/Unh8Exm.gif" width="200" height="100">
+  <h2>Demo</h2>
+  <img src="https://i.imgur.com/Unh8Exm.gif" width="400" height="200">
 </div>

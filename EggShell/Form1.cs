@@ -54,5 +54,9 @@ namespace EggShell
         {
             System.Diagnostics.Process.Start("http://google.com");
         }
+        public void LaunchExpr(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer.exe", $@"C:\Users\{Environment.UserName}\");
+        }
     }
 }

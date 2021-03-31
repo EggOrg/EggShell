@@ -38,5 +38,9 @@ namespace EggShell
             ShowWindow(hwnd, SW_SHOW);
             Application.Exit();
         }
+        public void Browser(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://google.com");
+        }
     }
 }

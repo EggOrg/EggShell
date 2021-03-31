@@ -13,6 +13,7 @@ namespace EggShell
 {
     public partial class Form1 : Form
     {
+        public Form2 f2 = new Form2();
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
         (
@@ -33,7 +34,7 @@ namespace EggShell
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
-            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 10, 10));
         }
         public void Init(object sender, EventArgs e)
         {
@@ -65,6 +66,11 @@ namespace EggShell
         public void LaunchCmd(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("cmd.exe");
+        }
+
+        public void LaunchPowerMenu(object sender, EventArgs e)
+        {
+            f2.Show();
         }
     }
 }

@@ -3,5 +3,5 @@
   An experimental shell replacement.
   <br><br><br>
   <h2>Demo</h2>
-  <img src="https://i.imgur.com/Unh8Exm.gif" width="400" height="200">
+  <img src="https://i.imgur.com/Unh8Exm.gif" width="600" height="200">
 </div>

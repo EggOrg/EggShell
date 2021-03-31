@@ -13,6 +13,16 @@ namespace EggShell
 {
     public partial class Form1 : Form
     {
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+        private static extern IntPtr CreateRoundRectRgn
+        (
+            int nLeftRect,
+            int nTopRect,
+            int nRightRect,
+            int nBottomRect,
+            int nWidthEllipse,
+            int nHeightEllipse
+        );
         [DllImport("user32.dll")]
         private static extern int FindWindow(string className, string windowText);
         [DllImport("user32.dll")]
@@ -22,6 +32,8 @@ namespace EggShell
         public Form1()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 20, 20));
         }
         public void Init(object sender, EventArgs e)
         {

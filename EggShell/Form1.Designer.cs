@@ -40,7 +40,7 @@ namespace EggShell
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 9);
+            this.label1.Location = new System.Drawing.Point(3, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(22, 25);
             this.label1.TabIndex = 0;
@@ -60,7 +60,7 @@ namespace EggShell
             // pictureBox1
             // 
             this.pictureBox1.Image = global::EggShell.Properties.Resources.chro;
-            this.pictureBox1.Location = new System.Drawing.Point(31, 11);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(20, 20);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

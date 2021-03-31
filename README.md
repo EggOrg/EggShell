@@ -7,4 +7,6 @@
   <br><br><br>
   <h2>FAQ</h2>
   Q: Why can't I see my taskbar when I close EggShell?<br>A: You have probably killed the program from task manager. Start the program again and press the "E" button at the left of the taskbar.
+  <h1></h1>
+  <img src="https://img.shields.io/badge/EggOrg-by--AcaiBerii-green?style=for-the-badge">
 </div>

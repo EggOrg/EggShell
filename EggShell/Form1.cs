@@ -58,5 +58,13 @@ namespace EggShell
         {
             System.Diagnostics.Process.Start("explorer.exe", $@"C:\Users\{Environment.UserName}\");
         }
+        public void LaunchNpd(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("notepad.exe");
+        }
+        public void LaunchCmd(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("cmd.exe");
+        }
     }
 }

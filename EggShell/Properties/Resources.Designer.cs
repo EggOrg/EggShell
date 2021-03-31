@@ -73,9 +73,39 @@ namespace EggShell.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cmds {
+            get {
+                object obj = ResourceManager.GetObject("cmds", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cmdss {
+            get {
+                object obj = ResourceManager.GetObject("cmdss", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap expr {
             get {
                 object obj = ResourceManager.GetObject("expr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap npd {
+            get {
+                object obj = ResourceManager.GetObject("npd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
